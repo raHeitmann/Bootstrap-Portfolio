@@ -51,6 +51,13 @@ body {
 	
 }
 
+.hangman {
+
+	text-align: center;
+	position: relative;
+
+}
+
 .footer {
 	text-align: center;
 	padding-top: 10px;
