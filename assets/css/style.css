@@ -5,45 +5,82 @@
 body {
 
 	background-color: grey;
+	height:1000px;
+}
+
+a {
+	color:white;
+	font-size: 22px;
+}
+
+a:hover {
+	
+	background-color: darkgrey;
+}
+
+a:active {
+background-color:rgba(74, 170, 173, 0.34);
+
 }
 
 
+h1{
+
+	font-size:30px;
+	font-family: Verdana, Geneva, sans-serif;
+	
+}
+
 #name {
 
-	background-color: darkgrey;
+	background-color: rgba(250, 170, 114, 0.95);
 	color: white;
 	width: 200px;
-	height:80px;
+	height:120px;
+	margin-bottom: 20px;
+	padding-top: 1px;
+	
 	text-align: center;
-	margin-left: 100px;
+	margin-left: 10px;
+	margin-top: 20px;
 
 }
 
 #toplinks {
-	padding-top:25px;
+	padding-top:50px;
+
 
 }
 
 #toprow {
 
-	background-color: #4aaaad;
+	background-color: black;
+	width: 100%;
 }
 
 #aboutsection {
 
-	background-color:#4aaaad;
+	background-color: rgba(74, 170, 173, 0.34);
 	width:100%;
 	height: 600px;
 	color: white;
-
-	padding: 20px
+	
+	padding: 20px;
 	
 	
 }
 
+#aboutpara {
+
+	font-size: 18px;
+	line-height: 1.8;
+
+}
+
+
 #connectsection {
 	
-	background-color: #4aaaad;
+	background-color: rgba(74, 170, 173, 0.34);
 	width: 100%;
 	height: 300px;
 	color:white;
@@ -60,6 +97,13 @@ body {
 }
 
 .footer {
+	height:100px;
 	text-align: center;
 	padding-top: 10px;
+	background-color:black;
+	border-top-style: solid;
+	border-top-width: 10px;
+	border-top-color: rgba(74, 170, 173, 0.34);
+	color:white;
+	font-size: 20px;
 }
